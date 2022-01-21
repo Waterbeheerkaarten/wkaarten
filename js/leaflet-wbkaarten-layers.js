@@ -554,7 +554,7 @@ const svk_keer = {
 			}
 			layer.bindTooltip(popup);
 			layer.bindPopup(popup);
-			layer.setStyle ({weight:6, color: '#e6194B'});
+			layer.setStyle ({weight:9, color: '#e6194B'});
 		},
 		firstLineTitles: true,
 		debug: true,
@@ -591,7 +591,7 @@ const stuwen = {
 			}
 			layer.bindTooltip(popup);
 			layer.bindPopup(popup);
-			layer.setStyle ({weight:7, color: '#e032e6'});
+			layer.setStyle ({weight:9, color: '#e032e6'});
 		},
 		firstLineTitles: true,
 		debug: true,
