@@ -469,8 +469,8 @@ const sluizenrws = {
 		},
 		pointToLayer: function (feature, latlng) {
 			return L.circleMarker(latlng, {
-				radius: 2,
-				weight: 2,
+				radius: 3,
+				weight: 3,
 				opacity: 1,
 				fillOpacity: 0.8,
 				color: '#4e7389',
@@ -513,7 +513,7 @@ const Sluizen = {
 		},
 		pointToLayer: function (feature, latlng) {
 			return L.circleMarker(latlng, {
-				radius: 2,
+				radius: 3,
 				weight: 2,
 				opacity: 1,
 				color: '#4e7389',
